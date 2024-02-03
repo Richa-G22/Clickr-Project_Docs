@@ -21,18 +21,18 @@
   -- Logged in users should be able to create new albums and add/remove photos.  
   -- Logged in users should be able to update their albums.  
   -- Logged in users should be able to delete their albums.  
-  -- Logged in users should be able to give title and description for the photo to be uploaded.               
+  -- Logged in users should be able to give title and description for the photo to be uploaded.                           
   -- If there is no album of the logged in user, message "Create a New Album" should be displayed. 
 
 # Comments
   -- Logged in users should be able to view all comments on a photo.  
   -- Logged in users should be able to create new comments on a photo.  
   -- Logged in users should be able to update their comments on a photo.  
-  -- Logged in users should be able to delete their comment from a photo. 
+  -- Logged in users should be able to delete their comment from a photo.               
   -- If there is no comment on a particular photo, message "Be the first to post a comment" should get displayed.   
 
 # Favorites
   -- Logged in users should be able to see all photos they favorited.  
   -- Logged in users should be able to favorite multiple photos.  
-  -- Logged in users should be able to unfavorite photos. 
+  -- Logged in users should be able to unfavorite photos.                           
   -- Logged in users cannot favorite their own photos.          
