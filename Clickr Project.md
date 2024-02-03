@@ -1,7 +1,7 @@
 # "Clickr"
 ## Database Schema Design -
 
-![Schema Image]((https://github.com/Richa-G22/Clickr-Project_Docs/blob/main/Images/Clickr_Database.png))
+![Schema Image](https://github.com/Richa-G22/Clickr-Project_Docs/blob/main/Images/Clickr_Database.png)
 
 ## API Documentation
 
