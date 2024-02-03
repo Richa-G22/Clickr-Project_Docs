@@ -36,4 +36,7 @@
   -- Logged in users should be able to favorite multiple photos.  
   -- Logged in users should be able to unfavorite photos. 
   -- Logged in users cannot favorite their own photos. 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 73d62b5818d23fabcc67749f44b2c4c08df37394
