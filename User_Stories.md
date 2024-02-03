@@ -21,7 +21,7 @@
   -- Logged in users should be able to create new albums and add/remove photos.  
   -- Logged in users should be able to update their albums.  
   -- Logged in users should be able to delete their albums.  
-  -- Logged in users should be able to give title and description for the photo to be uploaded.  
+  -- Logged in users should be able to give title and description for the photo to be uploaded.               
   -- If there is no album of the logged in user, message "Create a New Album" should be displayed. 
 
 # Comments
@@ -35,8 +35,4 @@
   -- Logged in users should be able to see all photos they favorited.  
   -- Logged in users should be able to favorite multiple photos.  
   -- Logged in users should be able to unfavorite photos. 
-  -- Logged in users cannot favorite their own photos. 
-<<<<<<< HEAD
-
-=======
->>>>>>> 73d62b5818d23fabcc67749f44b2c4c08df37394
+  -- Logged in users cannot favorite their own photos.          
