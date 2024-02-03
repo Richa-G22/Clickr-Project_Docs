@@ -13,6 +13,7 @@
   -- Users should be able to update their posts.  
   -- Users should be able to delete their posts.  
   -- Users should be able to give title and description for the photo to be uploaded.  
+  -- Once a photo is deleted, cascade delete it from albums, comments and favorites.
 
 # Albums
   -- Users should be able to view all albums on a user's profile.  
