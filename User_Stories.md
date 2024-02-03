@@ -22,7 +22,7 @@
   -- Users should be able to give title and description for the photo to be uploaded.  
 
 # Comments
-  -- Users should be able to view all comments on a Photo.  
+  -- Users should be able to view all comments on a photo.  
   -- Users should be able to create new comments on a photo.  
   -- Users should be able to update their comments on a photo.  
   -- Users should be able to delete their comment from a photo.  

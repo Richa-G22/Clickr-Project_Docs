@@ -1,8 +1,7 @@
 # "Clickr"
 ## Database Schema Design -
 
-[Schema]
-(Clickr-User_Stories/Images/Clickr_Database.png)
+![Schema Image](Clickr-User_Stories/Images/Clickr_Database.png)
 
 ## API Documentation
 
