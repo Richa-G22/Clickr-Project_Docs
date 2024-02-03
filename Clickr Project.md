@@ -28,10 +28,10 @@ app.route('/current')
 app.route('/', methods=["GET","POST"])
 
 # Users should be able to update their posts.
-app.route('/photos/photoId', methods=["GET","PUT"])
+app.route('/photos/<int:photoId>', methods=["GET","PUT"])
 
 # Users should be able to delete their posts.
-app.route('/photos/photoId', methods=["DELETE'])
+app.route('/photos/<int:photoId>', methods=["DELETE'])
 
 
 # Albums-
@@ -39,10 +39,10 @@ app.route('/photos/photoId', methods=["DELETE'])
 app.route('/', methods=["GET","POST"])
 
 # Users should be able to update their albums.
-app.route('/albums/:albumId', methods=["GET","PUT"])
+app.route('/albums/<int:albumId>', methods=["GET","PUT"])
 
 # Users should be able to delete their albums.
-app.route('/albums/:albumId'', methods=["DELETE'])
+app.route('/albums/<int:albumId>', methods=["DELETE'])
 
 
 # Comments-
@@ -50,18 +50,18 @@ app.route('/albums/:albumId'', methods=["DELETE'])
 app.route('/comments')
 
 # Users should be able to create new comments on a photo.
-app.route('/photos/:photoId/comments', methods=["GET","POST"])
+app.route('/photos/<int:photoId>/comments', methods=["GET","POST"])
 
 # Users should be able to update their comments on a photo.
-app.route('/comments/:commentId', methods=["GET","PUT"])
+app.route('/comments/<int:commentId>', methods=["GET","PUT"])
 
 # Users should be able to delete their comment from a photo.
-app.route('/comments/:commentId', methods=["DELETE"])
+app.route('/comments/<int:commentId>', methods=["DELETE"])
 
 
 # Favorites-
 # Users should be able to see all photos they favorited.
-app.route('/:userId/favorites')
+app.route('/<int:userId>/favorites')
 
 # Users should be able to favorite multiple photos.
 # Users should be able to unfavorite photos.
