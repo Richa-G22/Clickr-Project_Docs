@@ -1,4 +1,4 @@
-# `<Clickr>`
+"Clickr"
 ## Database Schema Design -
 
 [link to schema](https://dbdiagram.io/d/Flickr-db-diagram-65be93daac844320ae60c67c)
